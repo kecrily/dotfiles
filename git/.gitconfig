@@ -1,0 +1,21 @@
+[user]
+	name = Percy Ma
+	email = kecrily@gmail.com
+	signingkey = E6DE7E6D8EF5D458CE205C00A1803D3315E6CCBC
+[core]
+	autocrlf = input
+	editor = code --wait
+[commit]
+	gpgsign = true
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+  tool = vscode
+	conflictStyle = diff3
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
+[gpg]
+	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
+

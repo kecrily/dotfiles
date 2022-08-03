@@ -1,0 +1,9 @@
+global:
+  installs:
+    cmd: |
+      cargo install fnm
+      fnm install lts-latest
+      corepack enable
+    depends: [rust]
+  links:
+    .npmrc: ~/.npmrc

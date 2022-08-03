@@ -1,0 +1,6 @@
+windows:
+  installs: |
+    winget install Discord.Discord -h
+    winget install Element.Element -h
+    winget install Telegram.TelegramDesktop -h
+    
