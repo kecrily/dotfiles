@@ -1,0 +1,4 @@
+windows:
+  installs: |
+    winget install Armin2208.WindowsAutoNightMode -h
+    winget install Microsoft.PowerToys -h
