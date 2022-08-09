@@ -4,5 +4,7 @@ windows:
       winget install Armin2208.WindowsAutoNightMode -h
       winget install Microsoft.PowerToys -h
       # Unix-like
-      cargo install coreutils -q
+      cargo install coreutils
+      # fast delete
+      iwr -useb cdn.xtremedevx.com/turbo-delete/install.ps1 | iex
     depends: [rust]
