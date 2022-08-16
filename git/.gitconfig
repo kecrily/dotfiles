@@ -18,4 +18,5 @@
   cmd = code --wait $MERGED
 [gpg]
 	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
-
+[push]
+	autoSetupRemote = true
