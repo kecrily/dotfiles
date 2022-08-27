@@ -1,4 +1,4 @@
-Function Prompt { "$( ( get-item $pwd ).Name )> " }
+Function Prompt { "$((get-item $pwd).Name )> " }
 
 Import-Module posh-git
 
