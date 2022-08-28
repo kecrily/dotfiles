@@ -86,7 +86,6 @@
 
   // Markdown
   "markdown.extension.italic.indicator": "_",
-  "markdown.extension.syntax.plainTheme": true,
   "markdown.experimental.validate.enabled": true,
   "markdown.experimental.editor.pasteLinks.enabled": true,
   "markdown.preview.typographer": true,
