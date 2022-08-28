@@ -1,0 +1,102 @@
+{
+  // Layout
+  "window.commandCenter": true,
+  "window.menuBarVisibility": "toggle",
+  "workbench.layoutControl.enabled": false,
+
+  // Style
+  "window.autoDetectColorScheme": true,
+  "workbench.colorTheme": "GitHub Light Default",
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+  "workbench.preferredHighContrastColorTheme": "GitHub Dark Colorblind (Beta)",
+  "workbench.preferredHighContrastLightColorTheme": "GitHub Light Colorblind (Beta)",
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+
+  // Animation
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.minimap.renderCharacters": false,
+  "workbench.list.smoothScrolling": true,
+
+  // Editor
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "editor.formatOnType": true,
+  "editor.linkedEditing": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.inlayHints.enabled": "onUnlessPressed",
+  "editor.experimental.pasteActions.enabled": true,
+  "editor.experimental.stickyScroll.enabled": true,
+  "editor.wordSeparators": "`~@#$%^&*-=+\\|'\",./!?;:()[]{}<>，、。！？：；…—（）【】《》〈〉“”‘’「」『』",
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+
+  // Explorer
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "package*": "package-lock.json, yarn.lock, pnpm-*.yaml, netlify.toml, vercel.json, .*, _*",
+    "tsconfig*": "${basename}*, index.html, *.config.cjs, *.config.mjs, *.config.js, *.config.ts, *.d.ts",
+    "readme*": "LICENSE*, CHANGELOG*, CODE_OF_CONDUCT*, CONTRIBUTING*, AUTHORS*",
+    "*.md": "${capture}.*.md"
+  },
+  "files.exclude": { "**/node_modules": true },
+  "search.exclude": {
+    "**/package-lock.json": true, "**/yarn.lock": true, "**/pnpm-lock.yaml": true,
+    "**/dist": true, "**/output": true
+  },
+
+  // Extension
+  "extensions.experimental.useUtilityProcess": true,
+
+  // Git
+  "git.autofetch": true,
+  "git.autoStash": true,
+  "git.allowForcePush": true,
+  "git.enableSmartCommit": true,
+  "git.enableCommitSigning": true,
+  "git.allowNoVerifyCommit": true,
+  "git.mergeEditor": true,
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
+
+  // JavaScript & TypeScript
+  "intellicodeCompletions.language.javascript": true,
+  "intellicodeCompletions.language.typescript": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+
+  // Vue
+  "volar.codeLens.scriptSetupTools": true,
+
+  // ESLint
+  "eslint.quiet": true,
+  "eslint.lintTask.enable": true,
+  "eslint.codeAction.showDocumentation": { "enable": true },
+  "eslint.validate": [
+    "markdown",
+    "vue", "html",
+    "javascript", "typescript",
+    "javascriptreact", "typescriptreact",
+    "json", "jsonc", "json5", "yaml"
+  ],
+
+  // Markdown
+  "markdown.extension.italic.indicator": "_",
+  "markdown.extension.syntax.plainTheme": true,
+  "markdown.experimental.validate.enabled": true,
+  "markdown.experimental.editor.pasteLinks.enabled": true,
+  "markdown.preview.typographer": true,
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": { "comments": "off", "strings": "off", "other": "off" }
+  },
+
+  // Telemetry
+  "telemetry.telemetryLevel": "off",
+  "redhat.telemetry.enabled": false
+}

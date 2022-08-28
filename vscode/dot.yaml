@@ -1,2 +1,4 @@
 windows:
   installs: winget install Microsoft.VisualStudioCode -h
+  links:
+    settings.json: ~/AppData/Roaming/Code/User/settings.json
