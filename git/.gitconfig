@@ -16,7 +16,5 @@
 	conflictStyle = diff3
 [mergetool "vscode"]
   cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
-[gpg]
-	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
 [push]
 	autoSetupRemote = true
