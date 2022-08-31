@@ -3,4 +3,9 @@ windows:
     winget install Discord.Discord -h
     winget install Element.Element -h
     winget install Telegram.TelegramDesktop -h
-    
+
+darwin:
+  installs: |
+    brew install --cask discord
+    brew install --cask element
+    brew install --cask telegram

@@ -1,2 +1,5 @@
 windows:
   installs: winget install GnuPG.Gpg4win -h
+
+darwin:
+  installs: brew install --cask gpg-suite

@@ -8,3 +8,8 @@ windows:
       # fast delete
       iwr -useb cdn.xtremedevx.com/turbo-delete/install.ps1 | iex
     depends: [rust]
+
+darwin:
+  installs: |
+   brew install --cask appcleaner
+   brew install --cask hiddenbar

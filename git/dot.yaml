@@ -6,3 +6,6 @@ windows:
   installs: |
     winget install Git.Git -h
     winget install GitHub.Cli -h
+
+darwin:
+  installs: brew install gh

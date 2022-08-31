@@ -2,3 +2,8 @@ windows:
   installs: winget install Neovim.Neovim -h
   links:
     config: ~/AppData/Local/nvim
+
+darwin:
+  installs: brew install neovim
+  links:
+    config: ~/.config/nvim

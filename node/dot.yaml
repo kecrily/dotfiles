@@ -1,4 +1,8 @@
 global:
+  links:
+    .npmrc: ~/.npmrc
+
+windows:
   installs:
     cmd: |
       cargo install fnm
@@ -6,5 +10,11 @@ global:
       fnm env --use-on-cd | Out-String | Invoke-Expression
       corepack enable
     depends: [rust]
-  links:
-    .npmrc: ~/.npmrc
+
+darwin:
+  installs: |
+    brew install fnm
+    fnm install lts-latest
+    eval "$(fnm env --use-on-cd)"
+    corepack enable
+
