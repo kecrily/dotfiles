@@ -13,8 +13,13 @@ windows:
 
 darwin:
   installs: |
+    # Node
     brew install fnm
     fnm install lts-latest
     eval "$(fnm env --use-on-cd)"
     corepack enable
+    # Deno
+    brew install deno
+    # Bun
+    curl -fsSL https://bun.sh/install | bash
 
