@@ -28,6 +28,7 @@
   "editor.formatOnType": true,
   "editor.linkedEditing": true,
   "editor.inlineSuggest.enabled": true,
+  "editor.accessibilitySupport": "off",
   "editor.inlayHints.enabled": "onUnlessPressed",
   "editor.experimental.pasteActions.enabled": true,
   "editor.experimental.stickyScroll.enabled": true,
