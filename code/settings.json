@@ -89,6 +89,7 @@
   "markdown.extension.italic.indicator": "_",
   "markdown.experimental.validate.enabled": true,
   "markdown.experimental.editor.pasteLinks.enabled": true,
+  "markdown.experimental.updateLinksOnFileMove.enabled": "always",
   "markdown.preview.typographer": true,
   "[markdown]": {
     "editor.unicodeHighlight.ambiguousCharacters": false,
