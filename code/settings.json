@@ -17,6 +17,7 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.minimap.renderCharacters": false,
   "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
 
   // Editor
   "editor.tabSize": 2,
