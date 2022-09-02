@@ -53,6 +53,7 @@
 
   // Extension
   "extensions.experimental.useUtilityProcess": true,
+  "workbench.experimental.settingsProfiles.enabled": true,
 
   // Git
   "git.autofetch": true,
