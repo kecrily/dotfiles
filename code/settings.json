@@ -52,6 +52,9 @@
     "**/dist": true, "**/output": true
   },
 
+  // Terminal
+  "terminal.integrated.env.osx": { "FIG_NEW_SESSION": "1" },
+
   // Extension
   "extensions.experimental.useUtilityProcess": true,
   "workbench.experimental.settingsProfiles.enabled": true,
