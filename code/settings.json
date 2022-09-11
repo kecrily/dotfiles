@@ -33,7 +33,7 @@
   "editor.accessibilitySupport": "off",
   "editor.inlayHints.enabled": "onUnlessPressed",
   "editor.experimental.pasteActions.enabled": true,
-  "editor.wordSeparators": "`~@#$%^&*-=+\\|'\",./!?;:()[]{}<>，、。！？：；…—（）【】《》〈〉“”‘’「」『』",
+  "editor.wordSeparators": "`~@#$%^&*-=+\\|'\"_,./!?;:()[]{}<>，、。！？：；…—（）【】《》〈〉“”‘’「」『』",
   "files.insertFinalNewline": true,
   "files.eol": "\n",
 
