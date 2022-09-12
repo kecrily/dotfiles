@@ -9,7 +9,7 @@ windows:
       fnm install lts-latest
       fnm env --use-on-cd | Out-String | Invoke-Expression
       corepack enable
-    depends: [rust]
+    depends: [../lang/rs]
 
 darwin:
   installs: |
