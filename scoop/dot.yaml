@@ -1,2 +1,0 @@
-windows:
-  installs: irm get.scoop.sh | iex
