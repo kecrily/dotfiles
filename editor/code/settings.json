@@ -24,7 +24,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
     "source.fixAll.eslint": true,
-    "source.organizeImports": true
+    "source.organizeImports": false
   },
   "editor.formatOnType": true,
   "editor.linkedEditing": true,
