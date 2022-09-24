@@ -5,7 +5,7 @@ windows:
     winget install Tencent.QQ
     winget install SlackTechnologies.Slack
     winget install Telegram.TelegramDesktop
-    winget install -e --id Tencent.WeChat
+    winget install Tencent.WeChat
 
 darwin:
   installs: |
