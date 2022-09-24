@@ -1,11 +1,17 @@
 windows:
   installs: |
-    winget install Discord.Discord -h
-    winget install Element.Element -h
-    winget install Telegram.TelegramDesktop -h
+    winget install Discord.Discord
+    winget install Element.Element
+    winget install Tencent.QQ
+    winget install SlackTechnologies.Slack
+    winget install Telegram.TelegramDesktop
+    winget install -e --id Tencent.WeChat
 
 darwin:
   installs: |
     brew install --cask discord
     brew install --cask element
+    brew install --cask qq
+    brew install --cask slack
     brew install --cask telegram
+    brew install --cask wechat
