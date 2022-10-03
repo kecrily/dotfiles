@@ -52,9 +52,6 @@
     "**/dist": true, "**/output": true
   },
 
-  // Terminal
-  "terminal.integrated.env.osx": { "FIG_NEW_SESSION": "1" },
-
   // Extension
   "extensions.experimental.useUtilityProcess": true,
   "workbench.experimental.settingsProfiles.enabled": true,
@@ -91,7 +88,6 @@
   ],
 
   // Markdown
-  "markdown.extension.italic.indicator": "_",
   "markdown.experimental.validate.enabled": true,
   "markdown.experimental.editor.pasteLinks.enabled": true,
   "markdown.experimental.updateLinksOnFileMove.enabled": "always",
