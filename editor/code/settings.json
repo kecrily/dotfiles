@@ -88,7 +88,7 @@
   ],
 
   // Markdown
-  "markdown.experimental.validate.enabled": true,
+  "markdown.validate.enabled": true,
   "markdown.experimental.editor.pasteLinks.enabled": true,
   "markdown.experimental.updateLinksOnFileMove.enabled": "always",
   "markdown.preview.typographer": true,
