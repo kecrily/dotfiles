@@ -5,16 +5,19 @@
 [core]
 	autocrlf = input
 	editor = code --wait
+[init]
+	defaultBranch = main
 [commit]
 	gpgsign = true
-[diff]
-  tool = vscode
-[difftool "vscode"]
-  cmd = code --wait --diff $LOCAL $REMOTE
+[push]
+	autoSetupRemote = true
 [merge]
   tool = vscode
 	conflictStyle = diff3
 [mergetool "vscode"]
   cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
-[push]
-	autoSetupRemote = true
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+
