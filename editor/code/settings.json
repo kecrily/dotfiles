@@ -6,7 +6,7 @@
 
   // Style
   "window.autoDetectColorScheme": true,
-  "workbench.colorTheme": "GitHub Light Default",
+  "workbench.colorTheme": "GitHub Dark Default",
   "workbench.preferredLightColorTheme": "GitHub Light Default",
   "workbench.preferredDarkColorTheme": "GitHub Dark Default",
   "workbench.preferredHighContrastColorTheme": "GitHub Dark Colorblind (Beta)",
@@ -43,7 +43,7 @@
   "explorer.fileNesting.patterns": {
     "package*": "package-lock.json, yarn.lock, pnpm-*.yaml, netlify.toml, vercel.json, .*, _*",
     "tsconfig*": "${basename}*, index.html, *.config.cjs, *.config.mjs, *.config.js, *.config.ts, *.d.ts",
-    "readme*": "LICENSE*, CHANGELOG*, CODE_OF_CONDUCT*, CONTRIBUTING*, AUTHORS*",
+    "readme*": "README-*, LICENSE*, CHANGELOG*, CODE_OF_CONDUCT*, CONTRIBUTING*, AUTHORS*",
     "*.md": "${capture}.*.md, ${capture}_*.md"
   },
   "files.exclude": { "**/node_modules": true },
@@ -63,6 +63,7 @@
   "git.enableSmartCommit": true,
   "git.enableCommitSigning": true,
   "git.allowNoVerifyCommit": true,
+  "diffEditor.diffAlgorithm": "experimental",
   "git.mergeEditor": true,
   "mergeEditor.diffAlgorithm": "experimental",
   "merge-conflict.autoNavigateNextConflict.enabled": true,
