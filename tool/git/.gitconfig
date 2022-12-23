@@ -1,7 +1,7 @@
 [user]
 	name = Percy Ma
 	email = kecrily@gmail.com
-	signingkey = E6DE7E6D8EF5D458CE205C00A1803D3315E6CCBC
+	signingkey = 997D6DA8EEBA56BF2894346B6EDBF26A711EA3F9
 [core]
 	autocrlf = input
 	editor = code --wait
