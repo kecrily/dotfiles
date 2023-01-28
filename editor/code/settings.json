@@ -43,8 +43,12 @@
   "explorer.fileNesting.patterns": {
     "package*": "package-lock.json, yarn.lock, pnpm-*.yaml, netlify.toml, vercel.json, .*, _*",
     "tsconfig*": "${basename}*, index.html, *.config.cjs, *.config.mjs, *.config.js, *.config.ts, *.d.ts",
-    "readme*": "README-*, LICENSE*, CHANGELOG*, CODE_OF_CONDUCT*, CONTRIBUTING*, AUTHORS*",
-    "*.md": "${capture}.*.md, ${capture}_*.md"
+    "readme*": "README-*, LICENSE*, CHANGELOG*, CODE_OF_CONDUCT*, CONTRIBUTING*, AUTHORS*, SECURITY*, MAINTAINERS, DCO",
+    "*.md": "${capture}.*.md, ${capture}_*.md",
+    "Makefile": "BSDmakefile",
+    "go.mod": "go.sum",
+    "dockerfile": ".dockerignore, docker-compose.*, dockerfile*",
+    "*.js": "${capture}.js.map"
   },
   "files.exclude": { "**/node_modules": true },
   "search.exclude": {
