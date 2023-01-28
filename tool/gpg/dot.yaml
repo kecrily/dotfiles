@@ -3,3 +3,5 @@ windows:
 
 darwin:
   installs: brew install --cask gpg-suite
+  links:
+    gpg.conf: ~/.gnupg/gpg.conf
