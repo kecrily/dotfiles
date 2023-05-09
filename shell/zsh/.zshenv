@@ -1,14 +1,11 @@
 . "$HOME/.cargo/env"
 
-# bun completions
-[ -s "/Users/kecrily/.bun/_bun" ] && source "/Users/kecrily/.bun/_bun"
-
 eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(zoxide init zsh --cmd cd)"
 eval "$(fnm env --use-on-cd)"
-
 export PNPM_HOME="/Users/kecrily/Library/pnpm"
-export PATH="$PNPM_HOME:$PATH"
-
-typeset -U path PATH
-path=(~/.local/bin $path)
-export PATH
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+eval "$(github-copilot-cli alias -- "$0")"
