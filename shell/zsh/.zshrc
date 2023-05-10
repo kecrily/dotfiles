@@ -7,11 +7,8 @@ fi
 
 zi light-mode for @sindresorhus/pure
 
-zi ice wait lucid atload'_zsh_autosuggest_start'
-zi light zsh-users/zsh-autosuggestions
-
-zi light z-shell/zsh-select
 zi light zsh-users/zsh-syntax-highlighting
+zi light zsh-users/zsh-autosuggestions
 zi light zsh-users/zsh-completions
 zi light marlonrichert/zsh-autocomplete
 
