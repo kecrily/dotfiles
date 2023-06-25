@@ -5,3 +5,5 @@ darwin:
   installs: brew install --cask gpg-suite
   links:
     gpg.conf: ~/.gnupg/gpg.conf
+    gpg-agent.conf: ~/.gnupg/gpg-agent.conf
+    sshcontrol: ~/.gnupg/sshcontrol

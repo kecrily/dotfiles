@@ -6,10 +6,10 @@ else
 fi
 
 zi light-mode for @sindresorhus/pure
-
 zi light zsh-users/zsh-syntax-highlighting
 zi light zsh-users/zsh-autosuggestions
 zi light zsh-users/zsh-completions
-zi light marlonrichert/zsh-autocomplete
+
+zi snippet OMZP::gpg-agent
 
 [ -s "/Users/kecrily/.bun/_bun" ] && source "/Users/kecrily/.bun/_bun"
