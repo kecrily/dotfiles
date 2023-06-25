@@ -41,8 +41,8 @@
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
   "explorer.fileNesting.patterns": {
-    "package*": "package-lock.json, yarn.lock, pnpm-*.yaml, netlify.toml, vercel.json, .*, _*",
-    "tsconfig*": "${basename}*, index.html, *.config.cjs, *.config.mjs, *.config.js, *.config.ts, *.d.ts",
+    "package*": "package-lock.json, yarn.lock, pnpm-*.yaml, netlify.toml, vercel.json, .git*, _*",
+    "tsconfig.json": "${basename}*.json, index.html, *.config.cjs, *.config.mjs, *.config.js, *.config.ts, *.d.ts, .prettier*, .editorconfig, .eslint*, .commitlintrc, cspell.json",
     "readme*": "README-*, LICENSE*, CHANGELOG*, CODE_OF_CONDUCT*, CONTRIBUTING*, AUTHORS*, SECURITY*, MAINTAINERS, DCO",
     "*.md": "${capture}.*.md, ${capture}_*.md",
     "Makefile": "BSDmakefile",
