@@ -81,7 +81,6 @@
   "volar.codeLens.scriptSetupTools": true,
 
   // ESLint
-  "eslint.quiet": true,
   "eslint.lintTask.enable": true,
   "eslint.codeAction.showDocumentation": { "enable": true },
   "eslint.validate": [
