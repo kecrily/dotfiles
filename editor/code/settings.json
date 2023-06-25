@@ -14,7 +14,7 @@
 
   // Animation
   "editor.smoothScrolling": true,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.minimap.renderCharacters": false,
   "workbench.list.smoothScrolling": true,
   "terminal.integrated.smoothScrolling": true,
@@ -67,9 +67,9 @@
   "git.enableSmartCommit": true,
   "git.enableCommitSigning": true,
   "git.allowNoVerifyCommit": true,
-  "diffEditor.diffAlgorithm": "experimental",
+  "diffEditor.diffAlgorithm": "advanced",
   "git.mergeEditor": true,
-  "mergeEditor.diffAlgorithm": "experimental",
+  "mergeEditor.diffAlgorithm": "advanced",
   "merge-conflict.autoNavigateNextConflict.enabled": true,
 
   // JavaScript & TypeScript
