@@ -1,20 +1,27 @@
 windows:
   installs: |
-    # Read
+    # Browser
     winget install -e --id Google.Chrome
+    winget install -e --id Mozilla.Firefox
+
+    # Read
     winget install -e --id IPFS.IPFS-Desktop
 
     # Listen
     winget install -e --id Spotify.Spotify
+    winget install -e --id NetEase.CloudMusic
 
     # Download
     winget install -e --id agalwood.Motrix
-    winget install -e --id qBittorrent.qBittorrent
 
 darwin:
   installs: |
-    # Read
+    # Browser
     brew install --cask google-chrome
+    brew install --cask arc
+    brew install --cask firefox
+
+    # Read
     brew install --cask ipfs
     brew install --cask netnewswire
 
@@ -23,7 +30,7 @@ darwin:
 
     # Listen
     brew install --cask spotify
+    brew install --cask neteasemusic
 
     # Download
     brew install --cask motrix
-    brew install --cask qbittorrent
