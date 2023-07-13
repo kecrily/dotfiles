@@ -18,8 +18,10 @@ darwin:
     fnm install lts-latest
     eval "$(fnm env --use-on-cd)"
     corepack enable
+
     # Deno
     brew install deno
-    # Bun
-    curl -fsSL https://bun.sh/install | bash
 
+    # Bun
+    brew tap oven-sh/bun
+    brew install bun
