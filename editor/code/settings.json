@@ -30,6 +30,7 @@
   "editor.linkedEditing": true,
   "editor.stickyScroll.enabled": true,
   "editor.inlineSuggest.enabled": true,
+  "editor.experimental.asyncTokenization": true,
   "editor.accessibilitySupport": "off",
   "editor.inlayHints.enabled": "onUnlessPressed",
   "editor.experimental.pasteActions.enabled": true,
