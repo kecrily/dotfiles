@@ -28,6 +28,7 @@
   },
   "editor.formatOnType": true,
   "editor.linkedEditing": true,
+  "editor.pasteAs.enabled": true,
   "editor.stickyScroll.enabled": true,
   "editor.inlineSuggest.enabled": true,
   "editor.experimental.asyncTokenization": true,
@@ -99,7 +100,7 @@
 
   // Markdown
   "markdown.validate.enabled": true,
-  "markdown.experimental.editor.pasteLinks.enabled": true,
+  "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
   "markdown.updateLinksOnFileMove.enabled": "always",
   "markdown.preview.typographer": true,
   "[markdown]": {
