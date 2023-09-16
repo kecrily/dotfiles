@@ -34,7 +34,6 @@
   "editor.experimental.asyncTokenization": true,
   "editor.accessibilitySupport": "off",
   "editor.inlayHints.enabled": "onUnlessPressed",
-  "editor.experimental.pasteActions.enabled": true,
   "editor.wordSeparators": "`~@#$%^&*-=+\\|'\"_,./!?;:()[]{}<>，、。！？：；…—（）【】《》〈〉“”‘’「」『』",
   "files.insertFinalNewline": true,
   "files.eol": "\n",
@@ -58,10 +57,6 @@
     "**/dist": true, "**/output": true
   },
 
-  // Extension
-  "extensions.experimental.useUtilityProcess": true,
-  "workbench.experimental.settingsProfiles.enabled": true,
-
   // Git
   "git.autofetch": true,
   "git.autoStash": true,
@@ -73,19 +68,13 @@
   "diffEditor.experimental.useVersion2": true,
   "diffEditor.experimental.showMoves": true,
   "diffEditor.experimental.showEmptyDecorations": true,
-  "diffEditor.experimental.collapseUnchangedRegions": true,
   
   "git.mergeEditor": true,
   "mergeEditor.diffAlgorithm": "advanced",
   "merge-conflict.autoNavigateNextConflict.enabled": true,
 
-  // JavaScript & TypeScript
-  "intellicodeCompletions.language.javascript": true,
-  "intellicodeCompletions.language.typescript": true,
+  // TypeScript
   "typescript.tsserver.experimental.enableProjectDiagnostics": true,
-
-  // Vue
-  "volar.codeLens.scriptSetupTools": true,
 
   // ESLint
   "eslint.lintTask.enable": true,
@@ -111,8 +100,5 @@
 
   // Telemetry
   "telemetry.telemetryLevel": "off",
-  "redhat.telemetry.enabled": false,
-  "terminal.integrated.env.osx": {
-    "FIG_NEW_SESSION": "1"
-  }
+  "redhat.telemetry.enabled": false
 }
